@@ -78,7 +78,7 @@ To load an interstitial ad, call loadInterstitialAd
 AdLibManager.getInstance().loadInterstitialAd(mInterstitialAdView);
 ```
 
-After an interstitial ad has been loaded, you may show the interstitial ad. An interstitial will not show if it is not ready, so it may be useful to utlilze the listener functions.
+After an interstitial ad has been loaded, you may show the interstitial ad. An interstitial will not show if it is not ready, so it may be useful to utilize the listener functions.
 ```Java
 mInterstitialAdView.showInterstitial();
 ```
