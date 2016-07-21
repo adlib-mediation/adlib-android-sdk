@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_small"
+        android:text="@string/available_networks" />
+
+    <View style="@style/Divider" />
+
+    <CheckBox
+        android:id="@+id/bt_adlib"
+        style="@style/SelectNetworkCheckBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AdLib" />
+
+    <CheckBox
+        android:id="@+id/bt_admob"
+        style="@style/SelectNetworkCheckBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AdMob" />
+
+    <CheckBox
+        android:id="@+id/bt_inmobi"
+        style="@style/SelectNetworkCheckBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/InMobi" />
+
+    <CheckBox
+        android:id="@+id/bt_conversant"
+        style="@style/SelectNetworkCheckBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Conversant" />
+
+    <CheckBox
+        android:id="@+id/bt_applovin"
+        style="@style/SelectNetworkCheckBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/applovin" />
+
+    <CheckBox
+        android:id="@+id/bt_tapit"
+        style="@style/SelectNetworkCheckBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tapit" />
+
+    <CheckBox
+        android:id="@+id/bt_startapp"
+        style="@style/SelectNetworkCheckBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_app" />
+
+</LinearLayout>
