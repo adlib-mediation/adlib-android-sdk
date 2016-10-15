@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity implements SetupListener {
             mWebView.setWebViewClient(new WebViewClient() {
                 @Override
                 public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                     AdLibManager.getInstance().loadNextAd(mAdView);
+                    //AdLibManager.getInstance().loadNextAd(mAdView);
                    // AdLibManager.getInstance().loadInterstitialAd(mInterstitialAdView);
                     return false;
                 }
@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity implements SetupListener {
         @Override
         public void onResume() {
             super.onResume();
-            AdLibManager.getInstance().loadNextAd(mAdView);
+            //AdLibManager.getInstance().loadNextAd(mAdView);
            // mInterstitialAdView.loadInterstitial();
             Log.d("RESUME", "ON RESUME");
         }

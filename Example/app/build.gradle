@@ -43,5 +43,5 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.squareup.mimecraft:mimecraft:1.1.1'
     compile 'com.android.support:appcompat-v7:24.0.0'
-    compile files('libs/adlib-beta-realease.jar')
+    compile files('libs/adlib-beta-release.jar')
 }
